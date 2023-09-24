@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap');
+
 .loader {
   --path: #ffffff;
   --dot: #FFCD00;
@@ -8,6 +10,7 @@
 }
 
 body {
+  font-family: 'Sora', sans-serif;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -15,6 +18,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+body::after{
+    position: absolute;
+    content: "Design By Code Alchemy Lab";
+    bottom: 30px;
+    right: 30px;
+    color: white;
 }
 
 .loader {
